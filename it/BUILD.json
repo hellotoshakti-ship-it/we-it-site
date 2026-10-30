@@ -1,11 +1,11 @@
 {
- "content_key": "d80c4781c117cc7dc42c3f1d16acaf5919cadd38e897d3e56a7d3796210e68bb",
+ "content_key": "b1c66899cd87eb190ec4f099e9ef95133aaf9a879cac474448de99b75f888e85",
  "files": {
-  "index.html": "63e339e52fed3ded0e50eb750e5428137b00bf922f2db650eddabb679d4608bb",
-  "predictions.json": "a382ab23f232ff991e97d8874a06f224dad5b35024da3d58953a532d0d9e00ce"
+  "index.html": "ff7c466c7d5845406453909aefd375932ee5a8852a59fae734f348507be8dbf9",
+  "predictions.json": "11b3c215e48fb0765c556adb6f2977260db754bf8dc1226675016aea355d2068"
  },
- "generated_utc": "2026-10-30T08:27:34Z",
- "generator_sha256": "6189d376fa1d421e68d726ccc545916daae61b8f67c40229562c3931015cfe7b",
+ "generated_utc": "2026-10-30T09:39:46Z",
+ "generator_sha256": "b0459b3ed2ae88bbde55e756e78a0f463726fd35b1691a2c89b284917b5d3e97",
  "latest_base_session": "2026-10-30",
  "latest_state": "current",
  "ledger_file_sha256": "ec0d69efb09943304e65d2873b7e0cb33677ccb8c455745293612decf8795bed",
@@ -14,6 +14,6 @@
  "outcomes_file_sha256": null,
  "outcomes_lines": 0,
  "receipts_file_sha256": "b50290476769a707eacf259e695e16aba3b18a556c93e3254e1845e5ed0f73e8",
- "site_version": "it-site-1.0",
+ "site_version": "it-site-1.1",
  "warnings": []
 }

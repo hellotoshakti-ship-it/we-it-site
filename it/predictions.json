@@ -2601,8 +2601,9 @@
    "symbol": "OFSS"
   }
  ],
+ "cio_explain": "CIO-A (institutional) forecasts from business evidence (company results, deals, order books, sector state) and the market context; CIO-B is a statistical model that uses price data only; CIO-C (hybrid) uses the same business evidence plus CIO-B's price model.",
  "forward_only_note": "Forward results only. Historical School replay results are kept separately and are not shown here.",
- "generated_utc": "2026-10-30T08:27:34Z",
+ "generated_utc": "2026-10-30T09:39:46Z",
  "latest_base_session": "2026-10-30",
  "latest_state": "current",
  "ledger": {
@@ -2648,7 +2649,7 @@
   "matured_base_dates": 0,
   "not_counted_out_of_scope": 0
  },
- "picks": {
+ "price_model_picks": {
   "down": {
    "agree": 2,
    "base_session": "2026-10-30",
@@ -2722,15 +2723,57 @@
    "symbol": "WIPRO"
   }
  },
+ "research_picks": {
+  "down": {
+   "agree": 2,
+   "base_session": "2026-10-30",
+   "cio": "C",
+   "confidence": "MEDIUM",
+   "contract_version": "fwd-1.0",
+   "data_cutoff": "2026-10-29",
+   "direction": "DOWN",
+   "display": "▼ 59% DOWN",
+   "fno_scope": "IN SCOPE",
+   "freeze_utc": "2026-10-30T01:20:20Z",
+   "horizon": 10,
+   "kind": "F-DIR",
+   "name": "Infosys",
+   "no_signal_reason": null,
+   "of": 3,
+   "p_up": 0.41,
+   "peers": [
+    {
+     "cio": "A",
+     "sha256": "c24744c98a879ea4e4bc6f583bdc56a02571780dc4cd68e6d8647142c5f63364"
+    },
+    {
+     "cio": "B",
+     "sha256": "dd96f2e36e6e2550f6f6c387d092092f2a61977590effb8a097a1c3ce019eea8"
+    }
+   ],
+   "print_date": null,
+   "probability_pct": 59,
+   "reason": "Dividend record date filed with the Q2 print: ex-date very likely inside 10 sessions and outcomes are not dividend-adjusted, a ~2% mechanical drag (~0.3 standard deviations).",
+   "result": "PENDING",
+   "seq": 64,
+   "sha256": "86ec1f250be8d92722107aa31075b80fb54008510e01463781dc032770fb883d",
+   "stock": "INFY",
+   "symbol": "INFY"
+  },
+  "up": null
+ },
  "rules": {
   "agreement": "number of CIOs whose recorded direction for the same stock and horizon matches; not a probability",
   "display_pct": "100 x recorded directional probability (UP: p_up; DOWN: 1 - p_up), rounded half-up",
   "pick_min_recorded_probability": "0.55",
+  "price_model_picks": "the highest-ranked UP and DOWN cells of CIO-B only (price data only)",
   "ranking": "recorded directional probability, then CIO A/B/C, then horizon, then symbol",
+  "research_picks": "the highest-ranked UP and DOWN cells of CIO-A and CIO-C only; reason = the first sentence of that CIO's own recorded rationale",
   "result": "settled outcome only (matured window): base-session open to the close of session base+h-1, split/bonus adjusted; ABSTAIN is not a call",
+  "top_list": "the next highest-ranked cells of all CIOs, excluding the four picks",
   "top_list_max": 8
  },
- "site_version": "it-site-1.0",
+ "site_version": "it-site-1.1",
  "stale_label": null,
  "top_list": [
   {
@@ -2840,42 +2883,6 @@
    "sha256": "78d14935e7160e9b641af6460be20e8708135c036033bc2e3d81bbc50b5c4c91",
    "stock": "TECHM",
    "symbol": "TECHM"
-  },
-  {
-   "agree": 2,
-   "base_session": "2026-10-30",
-   "cio": "C",
-   "confidence": "MEDIUM",
-   "contract_version": "fwd-1.0",
-   "data_cutoff": "2026-10-29",
-   "direction": "DOWN",
-   "display": "▼ 59% DOWN",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-10-30T01:20:20Z",
-   "horizon": 10,
-   "kind": "F-DIR",
-   "name": "Infosys",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.41,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "c24744c98a879ea4e4bc6f583bdc56a02571780dc4cd68e6d8647142c5f63364"
-    },
-    {
-     "cio": "B",
-     "sha256": "dd96f2e36e6e2550f6f6c387d092092f2a61977590effb8a097a1c3ce019eea8"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 59,
-   "reason": "Dividend record date filed with the Q2 print: ex-date very likely inside 10 sessions and outcomes are not dividend-adjusted, a ~2% mechanical drag (~0.3 standard deviations).",
-   "result": "PENDING",
-   "seq": 64,
-   "sha256": "86ec1f250be8d92722107aa31075b80fb54008510e01463781dc032770fb883d",
-   "stock": "INFY",
-   "symbol": "INFY"
   },
   {
    "agree": 2,
@@ -3020,6 +3027,42 @@
    "sha256": "270ae430b0bf3e4097965a763a77e9e49b9282622f9e639788a7ca6c6b1894be",
    "stock": "INFY",
    "symbol": "INFY"
+  },
+  {
+   "agree": 1,
+   "base_session": "2026-10-30",
+   "cio": "B",
+   "confidence": "LOW",
+   "contract_version": "fwd-1.0",
+   "data_cutoff": "2026-10-29",
+   "direction": "DOWN",
+   "display": "▼ 58% DOWN",
+   "fno_scope": "IN SCOPE",
+   "freeze_utc": "2026-10-30T01:10:27Z",
+   "horizon": 10,
+   "kind": "F-DIR",
+   "name": "Coforge",
+   "no_signal_reason": null,
+   "of": 3,
+   "p_up": 0.421423,
+   "peers": [
+    {
+     "cio": "A",
+     "sha256": "29d8325b245ed36e01a3f621565bea1925d72b4ed172b39e7096e8a83ba7ff23"
+    },
+    {
+     "cio": "C",
+     "sha256": "4908dc2877fb28f50400a190bd85d78d667190fbb382dd82572201f224af9f0a"
+    }
+   ],
+   "print_date": null,
+   "probability_pct": 58,
+   "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards DOWN), 5-day return (pushes towards UP).",
+   "result": "PENDING",
+   "seq": 20,
+   "sha256": "606982e0262f09c982ac65832269822cd3835ac86825b836022d857c658e0251",
+   "stock": "COFORGE",
+   "symbol": "COFORGE"
   }
  ]
 }
