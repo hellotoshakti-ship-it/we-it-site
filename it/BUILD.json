@@ -1,0 +1,19 @@
+{
+ "content_key": "d80c4781c117cc7dc42c3f1d16acaf5919cadd38e897d3e56a7d3796210e68bb",
+ "files": {
+  "index.html": "63e339e52fed3ded0e50eb750e5428137b00bf922f2db650eddabb679d4608bb",
+  "predictions.json": "a382ab23f232ff991e97d8874a06f224dad5b35024da3d58953a532d0d9e00ce"
+ },
+ "generated_utc": "2026-10-30T08:27:34Z",
+ "generator_sha256": "6189d376fa1d421e68d726ccc545916daae61b8f67c40229562c3931015cfe7b",
+ "latest_base_session": "2026-10-30",
+ "latest_state": "current",
+ "ledger_file_sha256": "ec0d69efb09943304e65d2873b7e0cb33677ccb8c455745293612decf8795bed",
+ "ledger_head_sha256": "6ca97151829547f5e08d128fb9308a6810422df92febe6fe9c0aea74b7df10ad",
+ "ledger_records": 93,
+ "outcomes_file_sha256": null,
+ "outcomes_lines": 0,
+ "receipts_file_sha256": "b50290476769a707eacf259e695e16aba3b18a556c93e3254e1845e5ed0f73e8",
+ "site_version": "it-site-1.0",
+ "warnings": []
+}
