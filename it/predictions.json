@@ -946,6 +946,138 @@
    ]
   }
  ],
+ "big5_results": {
+  "items": [
+   {
+    "base_session": "2026-10-30",
+    "cio": "A",
+    "name": "Coforge",
+    "outcome": "UP_FIRST",
+    "p_down_first": 0.46,
+    "p_down_first_pct": 46,
+    "p_up_first": 0.43,
+    "p_up_first_pct": 43,
+    "passage_session": "2026-11-02",
+    "seq": 52,
+    "sha256": "99e70da13cc7fcf20529f8a0f867b1e4c81bb95c60a670bfe5904b0be3a8077f",
+    "stock": "COFORGE",
+    "symbol": "COFORGE"
+   },
+   {
+    "base_session": "2026-10-30",
+    "cio": "B",
+    "name": "Coforge",
+    "outcome": "UP_FIRST",
+    "p_down_first": 0.442408,
+    "p_down_first_pct": 44,
+    "p_up_first": 0.295455,
+    "p_up_first_pct": 30,
+    "passage_session": "2026-11-02",
+    "seq": 21,
+    "sha256": "21f96a98a2a228a08b8782041a5fa9589515f76d3ad5722be40838bfa795c7d5",
+    "stock": "COFORGE",
+    "symbol": "COFORGE"
+   },
+   {
+    "base_session": "2026-10-30",
+    "cio": "C",
+    "name": "Coforge",
+    "outcome": "UP_FIRST",
+    "p_down_first": 0.45,
+    "p_down_first_pct": 45,
+    "p_up_first": 0.35,
+    "p_up_first_pct": 35,
+    "passage_session": "2026-11-02",
+    "seq": 83,
+    "sha256": "27891f523ab863f3f19af0dd11e656408d238ac2a00664ca6a5452c3b87ebd82",
+    "stock": "COFORGE",
+    "symbol": "COFORGE"
+   },
+   {
+    "base_session": "2026-10-30",
+    "cio": "A",
+    "name": "LTM",
+    "outcome": "UP_FIRST",
+    "p_down_first": 0.47,
+    "p_down_first_pct": 47,
+    "p_up_first": 0.4,
+    "p_up_first_pct": 40,
+    "passage_session": "2026-11-05",
+    "seq": 55,
+    "sha256": "337ac75748115bb3c11c6695a3e1f9afcae6cfdca11863c7109d58a19a54b8c7",
+    "stock": "LTM",
+    "symbol": "LTM"
+   },
+   {
+    "base_session": "2026-10-30",
+    "cio": "B",
+    "name": "LTM",
+    "outcome": "UP_FIRST",
+    "p_down_first": 0.3197,
+    "p_down_first_pct": 32,
+    "p_up_first": 0.360955,
+    "p_up_first_pct": 36,
+    "passage_session": "2026-11-05",
+    "seq": 24,
+    "sha256": "4fc3361f727004cae9f6185b5cfca298c2b2b39e2db3abb9fa34105dddd092eb",
+    "stock": "LTM",
+    "symbol": "LTM"
+   },
+   {
+    "base_session": "2026-10-30",
+    "cio": "C",
+    "name": "LTM",
+    "outcome": "UP_FIRST",
+    "p_down_first": 0.42,
+    "p_down_first_pct": 42,
+    "p_up_first": 0.37,
+    "p_up_first_pct": 37,
+    "passage_session": "2026-11-05",
+    "seq": 86,
+    "sha256": "01f30c07a28e121124d5dfcc70ff13ef8ef66886feadd73ea19eb62cd81e8daf",
+    "stock": "LTM",
+    "symbol": "LTM"
+   }
+  ],
+  "matured_total": 6,
+  "pending_total": 57,
+  "per_cio": {
+   "A": {
+    "avg_p_down_first_pct": "46.5",
+    "avg_p_up_first_pct": "41.5",
+    "down_first": 0,
+    "down_first_rate_pct": "0.0",
+    "matured": 2,
+    "none": 0,
+    "pending": 19,
+    "up_first": 2,
+    "up_first_rate_pct": "100.0"
+   },
+   "B": {
+    "avg_p_down_first_pct": "38.1",
+    "avg_p_up_first_pct": "32.8",
+    "down_first": 0,
+    "down_first_rate_pct": "0.0",
+    "matured": 2,
+    "none": 0,
+    "pending": 19,
+    "up_first": 2,
+    "up_first_rate_pct": "100.0"
+   },
+   "C": {
+    "avg_p_down_first_pct": "43.5",
+    "avg_p_up_first_pct": "36.0",
+    "down_first": 0,
+    "down_first_rate_pct": "0.0",
+    "matured": 2,
+    "none": 0,
+    "pending": 19,
+    "up_first": 2,
+    "up_first_rate_pct": "100.0"
+   }
+  },
+  "target": "BIG5"
+ },
  "cells": [
   {
    "base_session": "2026-10-30",
@@ -5848,8 +5980,238 @@
   }
  ],
  "cio_explain": "CIO-A (institutional) forecasts from business evidence (company results, deals, order books, sector state) and the market context; CIO-B is a statistical model that uses price data only; CIO-C (hybrid) uses the same business evidence plus CIO-B's price model.",
+ "company_analysts": {
+  "base_close": {
+   "appended_utc": "2026-11-06T01:21:19Z",
+   "missing": [],
+   "partial": false,
+   "record_id": "FI|2026-11-06|000161"
+  },
+  "base_session": "2026-11-06",
+  "companies": [
+   {
+    "company": "INFY",
+    "exp_record": null,
+    "name": "Infosys",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000101",
+     "FI|2026-11-06|000131"
+    ],
+    "rejected_passes": 2,
+    "rejected_sections": 4,
+    "rejected_sections_unlinked": 0,
+    "status": "NO ACCEPTED ANALYST SECTION",
+    "symbol": "INFY",
+    "thesis_record": null
+   },
+   {
+    "company": "TCS",
+    "exp_record": null,
+    "name": "Tata Consultancy Services",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000101",
+     "FI|2026-11-06|000131"
+    ],
+    "rejected_passes": 2,
+    "rejected_sections": 4,
+    "rejected_sections_unlinked": 0,
+    "status": "NO ACCEPTED ANALYST SECTION",
+    "symbol": "TCS",
+    "thesis_record": null
+   },
+   {
+    "company": "HCLTECH",
+    "exp_record": null,
+    "name": "HCL Technologies",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000101",
+     "FI|2026-11-06|000131"
+    ],
+    "rejected_passes": 2,
+    "rejected_sections": 4,
+    "rejected_sections_unlinked": 0,
+    "status": "NO ACCEPTED ANALYST SECTION",
+    "symbol": "HCLTECH",
+    "thesis_record": null
+   },
+   {
+    "company": "TECHM",
+    "exp_record": null,
+    "name": "Tech Mahindra",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000101",
+     "FI|2026-11-06|000131"
+    ],
+    "rejected_passes": 2,
+    "rejected_sections": 4,
+    "rejected_sections_unlinked": 0,
+    "status": "NO ACCEPTED ANALYST SECTION",
+    "symbol": "TECHM",
+    "thesis_record": null
+   },
+   {
+    "company": "WIPRO",
+    "exp_record": "FI|2026-11-06|000141",
+    "name": "Wipro",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000110"
+    ],
+    "rejected_passes": 1,
+    "rejected_sections": 2,
+    "rejected_sections_unlinked": 0,
+    "status": "ACCEPTED",
+    "symbol": "WIPRO",
+    "thesis_record": "FI|2026-11-06|000142"
+   },
+   {
+    "company": "PERSISTENT",
+    "exp_record": "FI|2026-11-06|000143",
+    "name": "Persistent Systems",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000110"
+    ],
+    "rejected_passes": 1,
+    "rejected_sections": 2,
+    "rejected_sections_unlinked": 0,
+    "status": "ACCEPTED",
+    "symbol": "PERSISTENT",
+    "thesis_record": "FI|2026-11-06|000144"
+   },
+   {
+    "company": "COFORGE",
+    "exp_record": "FI|2026-11-06|000145",
+    "name": "Coforge",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000110"
+    ],
+    "rejected_passes": 1,
+    "rejected_sections": 2,
+    "rejected_sections_unlinked": 0,
+    "status": "PLACEHOLDER",
+    "symbol": "COFORGE",
+    "thesis_record": "FI|2026-11-06|000146"
+   },
+   {
+    "company": "LTM",
+    "exp_record": "FI|2026-11-06|000148",
+    "name": "LTM",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000117"
+    ],
+    "rejected_passes": 1,
+    "rejected_sections": 2,
+    "rejected_sections_unlinked": 0,
+    "status": "ACCEPTED",
+    "symbol": "LTM",
+    "thesis_record": "FI|2026-11-06|000149"
+   },
+   {
+    "company": "MPHASIS",
+    "exp_record": "FI|2026-11-06|000150",
+    "name": "MphasiS",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000117"
+    ],
+    "rejected_passes": 1,
+    "rejected_sections": 2,
+    "rejected_sections_unlinked": 0,
+    "status": "PLACEHOLDER",
+    "symbol": "MPHASIS",
+    "thesis_record": "FI|2026-11-06|000151"
+   },
+   {
+    "company": "OFSS",
+    "exp_record": "FI|2026-11-06|000152",
+    "name": "Oracle Financial Services Software",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000117"
+    ],
+    "rejected_passes": 1,
+    "rejected_sections": 2,
+    "rejected_sections_unlinked": 0,
+    "status": "PLACEHOLDER",
+    "symbol": "OFSS",
+    "thesis_record": "FI|2026-11-06|000153"
+   },
+   {
+    "company": "KPITTECH",
+    "exp_record": "FI|2026-11-06|000155",
+    "name": "KPIT Technologies",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000124"
+    ],
+    "rejected_passes": 1,
+    "rejected_sections": 2,
+    "rejected_sections_unlinked": 0,
+    "status": "PLACEHOLDER",
+    "symbol": "KPITTECH",
+    "thesis_record": "FI|2026-11-06|000156"
+   },
+   {
+    "company": "SAGILITY",
+    "exp_record": "FI|2026-11-06|000157",
+    "name": "Sagility",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000124"
+    ],
+    "rejected_passes": 1,
+    "rejected_sections": 2,
+    "rejected_sections_unlinked": 0,
+    "status": "PLACEHOLDER",
+    "symbol": "SAGILITY",
+    "thesis_record": "FI|2026-11-06|000158"
+   },
+   {
+    "company": "TATAELXSI",
+    "exp_record": "FI|2026-11-06|000159",
+    "name": "Tata Elxsi",
+    "rejected_pass_records": [
+     "FI|2026-11-06|000124"
+    ],
+    "rejected_passes": 1,
+    "rejected_sections": 2,
+    "rejected_sections_unlinked": 0,
+    "status": "PLACEHOLDER",
+    "symbol": "TATAELXSI",
+    "thesis_record": "FI|2026-11-06|000160"
+   }
+  ],
+  "counts": {
+   "ACCEPTED": 3,
+   "NO ACCEPTED ANALYST SECTION": 4,
+   "PLACEHOLDER": 6,
+   "UNCLASSIFIED": 0
+  },
+  "first_utc": "2026-11-06T00:41:44Z",
+  "last_utc": "2026-11-06T01:21:19Z",
+  "ran": true,
+  "records": 161
+ },
  "forward_only_note": "Forward results only. Historical School replay results are kept separately and are not shown here.",
- "generated_utc": "2026-11-06T19:07:13Z",
+ "generated_utc": "2026-11-06T19:23:35Z",
+ "institutional_pick_summary": {
+  "eligible": 0,
+  "highest": {
+   "cio": "A",
+   "direction": "DOWN",
+   "display": "▼ 54% DOWN",
+   "fails": [
+    "probability below 55%"
+   ],
+   "horizon": 20,
+   "probability_pct": 54,
+   "recorded_probability": "0.54",
+   "sha256": "3dbe9508a9e0094ae3a9847d1bb6e90a18b74cc4ec366945d7a999ba6da22d39",
+   "stock": "WIPRO"
+  },
+  "research_abstentions": 40,
+  "research_calls": 38,
+  "research_records": 78,
+  "rule": "most-1.0",
+  "rule_effective_base": "2026-11-09",
+  "rule_governs_this_base": false
+ },
+ "institutional_picks": [],
  "latest_base_session": "2026-11-06",
  "latest_state": "past",
  "ledger": {
@@ -5857,6 +6219,35 @@
   "head_sha256": "7c8cd675880f4c83c91bdb024ef5c4d1f0bc8f3e3cda655cb2414b12d3bf0794",
   "records": 213
  },
+ "missed_sessions": [
+  {
+   "base_session": "2026-11-02",
+   "cios_frozen": [],
+   "detected_utc": "2026-11-06T17:31:24Z",
+   "kinds": [
+    {
+     "kind": "WEEKLY"
+    }
+   ],
+   "seq": 1,
+   "status": "MISSED"
+  },
+  {
+   "base_session": "2026-11-04",
+   "cios_frozen": [],
+   "detected_utc": "2026-11-06T17:31:24Z",
+   "kinds": [
+    {
+     "company": "MPHASIS",
+     "kind": "PRE_RESULTS",
+     "print_date": "2026-11-05"
+    }
+   ],
+   "seq": 2,
+   "status": "MISSED"
+  }
+ ],
+ "most_pick": null,
  "notice": "Experimental research. Not investment advice. Not a guarantee of returns.",
  "performance": {
   "A": {
@@ -5895,385 +6286,248 @@
   "matured_base_dates": 1,
   "not_counted_out_of_scope": 0
  },
- "price_model_picks": {
-  "down": {
-   "agree": 2,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "DOWN",
-   "display": "▼ 69% DOWN",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 20,
-   "kind": "F-DIR",
-   "name": "Persistent Systems",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.307513,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "76a7302c499661ceb84c904b2e3b1497445414149a5d1e74e45c05d2c255037f"
-    },
-    {
-     "cio": "C",
-     "sha256": "931d03aa8efacaf471b51f485dafd1e7e714d0783ac2683eef5936e2a4a21815"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 69,
-   "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards DOWN), 20-day return versus IT peers (pushes towards DOWN).",
-   "result": "PENDING",
-   "seq": 111,
-   "sha256": "a44c3ae22485bcfffb82a14eb5ebec736b22877bec21242e806a7ab523bcd725",
-   "stock": "PERSISTENT",
-   "symbol": "PERSISTENT"
-  },
-  "up": {
-   "agree": 2,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "UP",
-   "display": "▲ 77% UP",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 20,
-   "kind": "F-DIR",
-   "name": "KPIT Technologies",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.767609,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "c72685f2ec70739c14216e8d0a625d1cf8098cfb764e8701906b6757715266e8"
-    },
-    {
-     "cio": "C",
-     "sha256": "d087576316281a7c98a8f020a0450595f65be9fe6090784b7c301a90dfcc448e"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 77,
-   "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards UP), 20-day return versus IT peers (pushes towards DOWN).",
-   "result": "PENDING",
-   "seq": 126,
-   "sha256": "50d03628aa0e776272f035ab135f7dcb63e08bb94df0a48c0a456493c907de7b",
-   "stock": "KPITTECH",
-   "symbol": "KPITTECH"
-  }
- },
- "research_picks": {
-  "down": null,
-  "up": null
+ "price_model_signals": {
+  "cio": "B",
+  "pick_min_recorded_probability": "0.55",
+  "shown": [
+   {
+    "base_session": "2026-11-06",
+    "cio": "B",
+    "confidence": "LOW",
+    "contract_version": "fwd-1.1",
+    "data_cutoff": "2026-11-05",
+    "direction": "UP",
+    "display": "▲ 77% UP",
+    "fno_scope": "IN SCOPE",
+    "freeze_utc": "2026-11-06T00:41:21Z",
+    "horizon": 20,
+    "kind": "F-DIR",
+    "name": "KPIT Technologies",
+    "no_signal_reason": null,
+    "p_up": 0.767609,
+    "print_date": null,
+    "probability_pct": 77,
+    "rank": 1,
+    "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards UP), 20-day return versus IT peers (pushes towards DOWN).",
+    "result": "PENDING",
+    "seq": 126,
+    "sha256": "50d03628aa0e776272f035ab135f7dcb63e08bb94df0a48c0a456493c907de7b",
+    "stock": "KPITTECH",
+    "symbol": "KPITTECH"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "B",
+    "confidence": "LOW",
+    "contract_version": "fwd-1.1",
+    "data_cutoff": "2026-11-05",
+    "direction": "UP",
+    "display": "▲ 70% UP",
+    "fno_scope": "IN SCOPE",
+    "freeze_utc": "2026-11-06T00:41:21Z",
+    "horizon": 20,
+    "kind": "F-DIR",
+    "name": "Tata Elxsi",
+    "no_signal_reason": null,
+    "p_up": 0.697471,
+    "print_date": null,
+    "probability_pct": 70,
+    "rank": 2,
+    "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards UP), 20-day return versus IT peers (pushes towards UP).",
+    "result": "PENDING",
+    "seq": 132,
+    "sha256": "781f80f8efa222560155829898e72386bb340b8d5df28c0ec9a412c7f1a9fff6",
+    "stock": "TATAELXSI",
+    "symbol": "TATAELXSI"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "B",
+    "confidence": "LOW",
+    "contract_version": "fwd-1.1",
+    "data_cutoff": "2026-11-05",
+    "direction": "UP",
+    "display": "▲ 70% UP",
+    "fno_scope": "IN SCOPE",
+    "freeze_utc": "2026-11-06T00:41:21Z",
+    "horizon": 5,
+    "kind": "F-DIR",
+    "name": "KPIT Technologies",
+    "no_signal_reason": null,
+    "p_up": 0.696033,
+    "print_date": null,
+    "probability_pct": 70,
+    "rank": 3,
+    "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards UP), 60-day return (pushes towards UP).",
+    "result": "PENDING",
+    "seq": 124,
+    "sha256": "315fe21c31fecd843c77bae863bc7fd3cf2f7a89d895a5cc3f45e6ae722c1206",
+    "stock": "KPITTECH",
+    "symbol": "KPITTECH"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "B",
+    "confidence": "LOW",
+    "contract_version": "fwd-1.1",
+    "data_cutoff": "2026-11-05",
+    "direction": "DOWN",
+    "display": "▼ 69% DOWN",
+    "fno_scope": "IN SCOPE",
+    "freeze_utc": "2026-11-06T00:41:21Z",
+    "horizon": 20,
+    "kind": "F-DIR",
+    "name": "Persistent Systems",
+    "no_signal_reason": null,
+    "p_up": 0.307513,
+    "print_date": null,
+    "probability_pct": 69,
+    "rank": 4,
+    "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards DOWN), 20-day return versus IT peers (pushes towards DOWN).",
+    "result": "PENDING",
+    "seq": 111,
+    "sha256": "a44c3ae22485bcfffb82a14eb5ebec736b22877bec21242e806a7ab523bcd725",
+    "stock": "PERSISTENT",
+    "symbol": "PERSISTENT"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "B",
+    "confidence": "LOW",
+    "contract_version": "fwd-1.1",
+    "data_cutoff": "2026-11-05",
+    "direction": "DOWN",
+    "display": "▼ 69% DOWN",
+    "fno_scope": "IN SCOPE",
+    "freeze_utc": "2026-11-06T00:41:21Z",
+    "horizon": 20,
+    "kind": "F-DIR",
+    "name": "Coforge",
+    "no_signal_reason": null,
+    "p_up": 0.307963,
+    "print_date": null,
+    "probability_pct": 69,
+    "rank": 5,
+    "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards DOWN), 20-day return (pushes towards DOWN).",
+    "result": "PENDING",
+    "seq": 114,
+    "sha256": "5e7cea1cabf76d81bb260893f4160649ebf65158c91eb11fa5887f0397ae9586",
+    "stock": "COFORGE",
+    "symbol": "COFORGE"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "B",
+    "confidence": "LOW",
+    "contract_version": "fwd-1.1",
+    "data_cutoff": "2026-11-05",
+    "direction": "DOWN",
+    "display": "▼ 69% DOWN",
+    "fno_scope": "IN SCOPE",
+    "freeze_utc": "2026-11-06T00:41:21Z",
+    "horizon": 20,
+    "kind": "F-DIR",
+    "name": "Sagility",
+    "no_signal_reason": null,
+    "p_up": 0.310399,
+    "print_date": null,
+    "probability_pct": 69,
+    "rank": 6,
+    "reason": "Price-pattern model (price data only). Strongest signals: 20-day return versus IT peers (pushes towards DOWN), 5-day return (pushes towards DOWN).",
+    "result": "PENDING",
+    "seq": 129,
+    "sha256": "84f154a3e7127f41ebac1efcfb46c96e388fee8d1951c16fbc80d3acafac1575",
+    "stock": "SAGILITY",
+    "symbol": "SAGILITY"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "B",
+    "confidence": "LOW",
+    "contract_version": "fwd-1.1",
+    "data_cutoff": "2026-11-05",
+    "direction": "DOWN",
+    "display": "▼ 67% DOWN",
+    "fno_scope": "IN SCOPE",
+    "freeze_utc": "2026-11-06T00:41:21Z",
+    "horizon": 20,
+    "kind": "F-DIR",
+    "name": "MphasiS",
+    "no_signal_reason": null,
+    "p_up": 0.331619,
+    "print_date": null,
+    "probability_pct": 67,
+    "rank": 7,
+    "reason": "Price-pattern model (price data only). Strongest signals: 20-day return versus IT peers (pushes towards DOWN), distance below the 1-year high (pushes towards DOWN).",
+    "result": "PENDING",
+    "seq": 120,
+    "sha256": "e560df604db680bcaa9c068cdb8889ee1e549b21ef4152622f8b0f7ad4e4b4b6",
+    "stock": "MPHASIS",
+    "symbol": "MPHASIS"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "B",
+    "confidence": "LOW",
+    "contract_version": "fwd-1.1",
+    "data_cutoff": "2026-11-05",
+    "direction": "UP",
+    "display": "▲ 66% UP",
+    "fno_scope": "IN SCOPE",
+    "freeze_utc": "2026-11-06T00:41:21Z",
+    "horizon": 10,
+    "kind": "F-DIR",
+    "name": "KPIT Technologies",
+    "no_signal_reason": null,
+    "p_up": 0.66225,
+    "print_date": null,
+    "probability_pct": 66,
+    "rank": 8,
+    "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards UP), 20-day return versus IT peers (pushes towards DOWN).",
+    "result": "PENDING",
+    "seq": 125,
+    "sha256": "87d593b6fe6e59228665d54727ec7142fdb4a6dc646b887d62cfe14262a87f7e",
+    "stock": "KPITTECH",
+    "symbol": "KPITTECH"
+   }
+  ],
+  "total": 27
  },
  "rules": {
-  "agreement": "number of CIOs whose recorded direction for the same stock and horizon matches; not a probability",
+  "agreement": "number of research CIOs (A, C) whose recorded direction for the same stock and horizon matches; not a probability",
   "display_pct": "100 x recorded directional probability (UP: p_up; DOWN: 1 - p_up), rounded half-up",
+  "institutional_picks_max": 3,
+  "most_pick": "CIO-A or CIO-C F-DIR record of the latest base, UP or DOWN, F&O in scope, recorded probability of its direction >= 0.55, company not PRICE-ONLY in that CIO's pack, evidence citing a forward-institution record id (FI|...)",
+  "most_pick_effective_base": "2026-11-09",
+  "most_pick_rule": "most-1.0",
   "pick_min_recorded_probability": "0.55",
-  "price_model_picks": "the highest-ranked UP and DOWN cells of CIO-B only (price data only)",
-  "ranking": "recorded directional probability, then CIO A/B/C, then horizon, then symbol",
-  "research_picks": "the highest-ranked UP and DOWN cells of CIO-A and CIO-C only; reason = the first sentence of that CIO's own recorded rationale",
-  "result": "settled outcome only (matured window): base-session open to the close of session base+h-1, split/bonus adjusted; ABSTAIN is not a call",
-  "top_list": "the next highest-ranked cells of all CIOs, excluding the four picks",
-  "top_list_max": 8
+  "price_signals": "CIO-B only (never institutional): F&O in scope, UP or DOWN, recorded probability >= 0.55, strict order: probability desc, horizon asc, stock asc",
+  "price_signals_max": 8,
+  "ranking": "recorded probability desc; then research CIOs (A, C) in the same direction on the same stock and horizon desc; then horizon asc; then stock asc; then CIO (A before C). Rank 1 is the MOST PICK",
+  "result": "settled outcome only (matured window): base-session open to the close of session base+h-1, split/bonus adjusted; ABSTAIN is not a call"
  },
- "site_version": "it-site-1.1",
+ "site_version": "it-site-2.0",
  "stale_label": "Latest available forecast (no newer forecast has been frozen)",
- "top_list": [
-  {
-   "agree": 1,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "UP",
-   "display": "▲ 70% UP",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 20,
-   "kind": "F-DIR",
-   "name": "Tata Elxsi",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.697471,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "5252983d3658b3d21334ca86e5d1400cf328069ee3679cc5841b7dd4350aeaf6"
-    },
-    {
-     "cio": "C",
-     "sha256": "7c8cd675880f4c83c91bdb024ef5c4d1f0bc8f3e3cda655cb2414b12d3bf0794"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 70,
-   "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards UP), 20-day return versus IT peers (pushes towards UP).",
-   "result": "PENDING",
-   "seq": 132,
-   "sha256": "781f80f8efa222560155829898e72386bb340b8d5df28c0ec9a412c7f1a9fff6",
-   "stock": "TATAELXSI",
-   "symbol": "TATAELXSI"
+ "timeline": {
+  "base_session": "2026-11-06",
+  "cio_freeze": {
+   "A": {
+    "first": "2026-11-06T01:29:21Z",
+    "last": "2026-11-06T01:29:21Z"
+   },
+   "B": {
+    "first": "2026-11-06T00:41:21Z",
+    "last": "2026-11-06T00:41:21Z"
+   },
+   "C": {
+    "first": "2026-11-06T01:30:46Z",
+    "last": "2026-11-06T01:30:46Z"
+   }
   },
-  {
-   "agree": 2,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "UP",
-   "display": "▲ 70% UP",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 5,
-   "kind": "F-DIR",
-   "name": "KPIT Technologies",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.696033,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "4e994dc0076974eed89831faad9e2113702f60370c8dcbaac9b7035dd47cf834"
-    },
-    {
-     "cio": "C",
-     "sha256": "f879162e541b695eebc5a6b838f9f0aac6d37795f59f92e32d2c162980e8fb3f"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 70,
-   "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards UP), 60-day return (pushes towards UP).",
-   "result": "PENDING",
-   "seq": 124,
-   "sha256": "315fe21c31fecd843c77bae863bc7fd3cf2f7a89d895a5cc3f45e6ae722c1206",
-   "stock": "KPITTECH",
-   "symbol": "KPITTECH"
-  },
-  {
-   "agree": 2,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "DOWN",
-   "display": "▼ 69% DOWN",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 20,
-   "kind": "F-DIR",
-   "name": "Coforge",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.307963,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "c2c2b573721c9aed86b8f447ec924eec14f2f7b122e6c86021cec2b425c51723"
-    },
-    {
-     "cio": "C",
-     "sha256": "9e88db6298ebd949d3027b8655754e391698495b9247b1f6c062edde4a955a4c"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 69,
-   "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards DOWN), 20-day return (pushes towards DOWN).",
-   "result": "PENDING",
-   "seq": 114,
-   "sha256": "5e7cea1cabf76d81bb260893f4160649ebf65158c91eb11fa5887f0397ae9586",
-   "stock": "COFORGE",
-   "symbol": "COFORGE"
-  },
-  {
-   "agree": 2,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "DOWN",
-   "display": "▼ 69% DOWN",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 20,
-   "kind": "F-DIR",
-   "name": "Sagility",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.310399,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "fda49a08e253e2c6d2d0138655c91ced9501997fc68945a406d83bba8e927ad5"
-    },
-    {
-     "cio": "C",
-     "sha256": "8e01b7fe31eb84d02f1db97d4e81f999eb28b2701be264a7f0d341fb5cf12913"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 69,
-   "reason": "Price-pattern model (price data only). Strongest signals: 20-day return versus IT peers (pushes towards DOWN), 5-day return (pushes towards DOWN).",
-   "result": "PENDING",
-   "seq": 129,
-   "sha256": "84f154a3e7127f41ebac1efcfb46c96e388fee8d1951c16fbc80d3acafac1575",
-   "stock": "SAGILITY",
-   "symbol": "SAGILITY"
-  },
-  {
-   "agree": 2,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "DOWN",
-   "display": "▼ 67% DOWN",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 20,
-   "kind": "F-DIR",
-   "name": "MphasiS",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.331619,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "61c00ad9ee536a8ff9e4a0b07a857db6cd2d7703c73d110580699056d3828864"
-    },
-    {
-     "cio": "C",
-     "sha256": "0f2fe0f05210654896ec4f9e05adb508a07070ed13ce8a31d86bce50448929de"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 67,
-   "reason": "Price-pattern model (price data only). Strongest signals: 20-day return versus IT peers (pushes towards DOWN), distance below the 1-year high (pushes towards DOWN).",
-   "result": "PENDING",
-   "seq": 120,
-   "sha256": "e560df604db680bcaa9c068cdb8889ee1e549b21ef4152622f8b0f7ad4e4b4b6",
-   "stock": "MPHASIS",
-   "symbol": "MPHASIS"
-  },
-  {
-   "agree": 2,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "UP",
-   "display": "▲ 66% UP",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 10,
-   "kind": "F-DIR",
-   "name": "KPIT Technologies",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.66225,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "ad35e4f84688918bc356a13d3966997b0be72a05febc275d1c591c5b11ae6a42"
-    },
-    {
-     "cio": "C",
-     "sha256": "b6f780494bbc9cfea707cc79b79576388e2d95354f48ff4f395d6af3fd26f132"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 66,
-   "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards UP), 20-day return versus IT peers (pushes towards DOWN).",
-   "result": "PENDING",
-   "seq": 125,
-   "sha256": "87d593b6fe6e59228665d54727ec7142fdb4a6dc646b887d62cfe14262a87f7e",
-   "stock": "KPITTECH",
-   "symbol": "KPITTECH"
-  },
-  {
-   "agree": 2,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "DOWN",
-   "display": "▼ 66% DOWN",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 20,
-   "kind": "F-DIR",
-   "name": "Tech Mahindra",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.338205,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "3ce590e2ec88d7ef33f4a05ec8bac3799ccdb63572ef1f8a45519154f788231d"
-    },
-    {
-     "cio": "C",
-     "sha256": "8b3cd6f51fd7b41f8ad78aa204c798f89ef741127726645ea106b9c90a930bf6"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 66,
-   "reason": "Price-pattern model (price data only). Strongest signals: distance below the 1-year high (pushes towards DOWN), 20-day return (pushes towards DOWN).",
-   "result": "PENDING",
-   "seq": 105,
-   "sha256": "d36730891ee0eb90d9e29dfbf74e31fc5b56520d67faf1690031b4df4c3ea98c",
-   "stock": "TECHM",
-   "symbol": "TECHM"
-  },
-  {
-   "agree": 3,
-   "base_session": "2026-11-06",
-   "cio": "B",
-   "confidence": "LOW",
-   "contract_version": "fwd-1.1",
-   "data_cutoff": "2026-11-05",
-   "direction": "UP",
-   "display": "▲ 65% UP",
-   "fno_scope": "IN SCOPE",
-   "freeze_utc": "2026-11-06T00:41:21Z",
-   "horizon": 5,
-   "kind": "F-DIR",
-   "name": "Tata Elxsi",
-   "no_signal_reason": null,
-   "of": 3,
-   "p_up": 0.653311,
-   "peers": [
-    {
-     "cio": "A",
-     "sha256": "cb7b18ec51ca8310f254fb3d2a72078397919eb259b96f5c5cd68eec2b89f558"
-    },
-    {
-     "cio": "C",
-     "sha256": "309aaa938c20e7adbfde9a7c1fedec6b04f0f6eb1a534c73e9ff6163b18d64e5"
-    }
-   ],
-   "print_date": null,
-   "probability_pct": 65,
-   "reason": "Price-pattern model (price data only). Strongest signals: 20-day return (pushes towards UP), distance below the 1-year high (pushes towards UP).",
-   "result": "PENDING",
-   "seq": 130,
-   "sha256": "9d394edf6ff564b8ef6c21fbfaf95685ebf7c040dcdf5f22dd5d737ab65b345b",
-   "stock": "TATAELXSI",
-   "symbol": "TATAELXSI"
+  "github_push_utc": "2026-11-06T01:32:48Z",
+  "institution_window": {
+   "first": "2026-11-06T00:41:44Z",
+   "last": "2026-11-06T01:21:19Z"
   }
- ]
+ }
 }

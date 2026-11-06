@@ -1,19 +1,23 @@
 {
- "content_key": "f027c6905f5cc8a1d1574e850a4cc0db58d910687645cb0576b9a0303900426a",
+ "content_key": "0e8fd691100553adad7a37fc2f2d6242354480831bb9dc9e3c47c00375d764a7",
  "files": {
-  "index.html": "e3873325a46b4b4b7144183a0a4ba0d59adc81f2b5532d0f3bed68b469612d29",
-  "predictions.json": "450d5a81d4b1052ac83c1bf681bd04e76050ba4a62e9006ab32e4af9487f4d07"
+  "index.html": "c351b608191710c22168a83b3419f70a4920f9da72cc203bfd0151f0a79a1bbd",
+  "predictions.json": "7fd69db02f4972b4c5c2c6bad38c98becceaf0fc65d05bfdbb6d825388b4cb64"
  },
- "generated_utc": "2026-11-06T19:07:13Z",
- "generator_sha256": "9cc5941b5ef66b5d0ecd20c0167e3992a49d514f23631081904d9c08644a8638",
+ "generated_utc": "2026-11-06T19:23:35Z",
+ "generator_sha256": "f7ade26401688d238d44d97d26c13bc783d068ed6932381b5bd9ba4553dcb61a",
+ "institution_ledger_sha256": "0fe216e067e4504d252fdba8b523a17fb2006f916f4010377b291acba330cd93",
  "latest_base_session": "2026-11-06",
  "latest_state": "past",
  "ledger_file_sha256": "7ad333214df5ad9d973e70d311d426765af267eb4b6bbdde671d3d2bb82ce0d1",
  "ledger_head_sha256": "7c8cd675880f4c83c91bdb024ef5c4d1f0bc8f3e3cda655cb2414b12d3bf0794",
  "ledger_records": 213,
+ "missed_sessions_sha256": "1a07e580b618956144ecfdee93227e8551104f6d3cd529ffaeaca05bedc0b0cd",
+ "most_pick_contract_sha256": "6f352a86a608ebe3a8c68e1eae412eba48627954dc2552673c4cb57fc1b96305",
+ "most_pick_contract_version": "most-1.0",
  "outcomes_file_sha256": "0b34defcb11780917df98f63918e360962bdc5f64b793a8a6c235b8e26250412",
  "outcomes_lines": 33,
  "receipts_file_sha256": "14cd28d3eb54784a726e8a7bf6b42ea05de2584122ef8a655e4098300eee0b77",
- "site_version": "it-site-1.1",
+ "site_version": "it-site-2.0",
  "warnings": []
 }
