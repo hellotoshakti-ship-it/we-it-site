@@ -5849,9 +5849,9 @@
  ],
  "cio_explain": "CIO-A (institutional) forecasts from business evidence (company results, deals, order books, sector state) and the market context; CIO-B is a statistical model that uses price data only; CIO-C (hybrid) uses the same business evidence plus CIO-B's price model.",
  "forward_only_note": "Forward results only. Historical School replay results are kept separately and are not shown here.",
- "generated_utc": "2026-11-06T06:11:33Z",
+ "generated_utc": "2026-11-06T18:45:37Z",
  "latest_base_session": "2026-11-06",
- "latest_state": "current",
+ "latest_state": "past",
  "ledger": {
   "file_sha256": "7ad333214df5ad9d973e70d311d426765af267eb4b6bbdde671d3d2bb82ce0d1",
   "head_sha256": "7c8cd675880f4c83c91bdb024ef5c4d1f0bc8f3e3cda655cb2414b12d3bf0794",
@@ -5985,7 +5985,7 @@
   "top_list_max": 8
  },
  "site_version": "it-site-1.1",
- "stale_label": null,
+ "stale_label": "Latest available forecast (no newer forecast has been frozen)",
  "top_list": [
   {
    "agree": 1,
