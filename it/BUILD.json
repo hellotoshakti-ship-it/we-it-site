@@ -1,14 +1,14 @@
 {
- "content_key": "373617d4bd0fc73921026282fa120f2782cbdf41927c81e9e8941c6305378e63",
+ "content_key": "2f45c71dbdba3f48af843c7557d5e63174c7f9bf123dd0f7516d18b7c4543ce7",
  "files": {
-  "index.html": "f97564a7c8159a8ed0dbf3d29090827e6165b6eb7b269bd22bff51fd3a4afe11",
-  "predictions.json": "1471ad73b3b4f4d4e780d2608d54f4498c3cbb75aff3c521d3010a2b0f6b729b"
+  "index.html": "3c67fa1d41e1d6c7a70e66feb053028e88e120e5d902324ba64b0e25aa3c5874",
+  "predictions.json": "b26402724d456d3b54546f68da634e7538027aa6b12c44594b7155fb213334a6"
  },
- "generated_utc": "2026-11-08T13:21:13Z",
+ "generated_utc": "2026-11-08T19:04:19Z",
  "generator_sha256": "f7ade26401688d238d44d97d26c13bc783d068ed6932381b5bd9ba4553dcb61a",
  "institution_ledger_sha256": "5bff7e200249370d9b0e06bf5c59954daa39eb8dc23d1eace5fdf8d4849280d2",
  "latest_base_session": "2026-11-09",
- "latest_state": "upcoming",
+ "latest_state": "current",
  "ledger_file_sha256": "48863c0f046b85162f7b37579da3b53d88297c711b8b7a64c041441792f5f60d",
  "ledger_head_sha256": "fb054b80448003e42e2f628ccd73991c180d4e973963dadc4eb0d87e37f18878",
  "ledger_records": 333,
