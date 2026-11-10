@@ -13281,7 +13281,7 @@
   "status_text": "Daily cohort (fwd-daily-1.0): active from base Wednesday 11 Nov 2026; no daily record has been frozen yet."
  },
  "forward_only_note": "Forward results only. Historical School replay results are kept separately and are not shown here.",
- "generated_utc": "2026-11-09T13:21:07Z",
+ "generated_utc": "2026-11-10T13:21:27Z",
  "institutional_pick_summary": {
   "eligible": 5,
   "highest": {
@@ -13428,7 +13428,7 @@
   }
  ],
  "latest_base_session": "2026-11-09",
- "latest_state": "current",
+ "latest_state": "past",
  "ledger": {
   "file_sha256": "48863c0f046b85162f7b37579da3b53d88297c711b8b7a64c041441792f5f60d",
   "head_sha256": "fb054b80448003e42e2f628ccd73991c180d4e973963dadc4eb0d87e37f18878",
@@ -13806,7 +13806,7 @@
   "result": "settled outcome only (matured window): base-session open to the close of session base+h-1, split/bonus adjusted; ABSTAIN is not a call"
  },
  "site_version": "it-site-2.2",
- "stale_label": null,
+ "stale_label": "Latest weekly forecast (no newer weekly forecast has been frozen)",
  "timeline": {
   "base_session": "2026-11-09",
   "cio_freeze": {

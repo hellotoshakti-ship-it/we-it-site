@@ -1,16 +1,16 @@
 {
- "content_key": "5448725244d8a6ff4e18b574f358cd2e618e7331a64b34fd24fad5c9cbb73952",
+ "content_key": "41938127c2368882b7d731ddef0d94f839e9efb1072a8ee624050cc173e1b51c",
  "daily_forecasts_sha256": null,
  "daily_records": 0,
  "files": {
-  "index.html": "3f2ed8b5c9c5d56e81d04dc92b2832dd933dd9994dc5ddeeeb6a059be1a951f1",
-  "predictions.json": "56c76dd2ca3da7ab277555502d407e8d1f69f2ba0017915843dce99672cba587"
+  "index.html": "066c070658a4d791724865ced8d93c385a29ad8dacfa56c8477e88b20b493891",
+  "predictions.json": "835a52e0ab5f202dcc5196dd3f944f5bbbac3afbf030604021f575d3680a14b9"
  },
- "generated_utc": "2026-11-09T13:21:07Z",
+ "generated_utc": "2026-11-10T13:21:27Z",
  "generator_sha256": "abc505039b022064c5bce33ad59d55723f9bf691a5f3a5fb48ec813335248165",
  "institution_ledger_sha256": "5bff7e200249370d9b0e06bf5c59954daa39eb8dc23d1eace5fdf8d4849280d2",
  "latest_base_session": "2026-11-09",
- "latest_state": "current",
+ "latest_state": "past",
  "ledger_file_sha256": "48863c0f046b85162f7b37579da3b53d88297c711b8b7a64c041441792f5f60d",
  "ledger_head_sha256": "fb054b80448003e42e2f628ccd73991c180d4e973963dadc4eb0d87e37f18878",
  "ledger_records": 333,
