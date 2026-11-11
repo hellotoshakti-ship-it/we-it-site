@@ -1,12 +1,12 @@
 {
- "content_key": "1b51561694a1143f8430cfb7f9cf983d82556a61a98952b1e5001cc3157c08a9",
+ "content_key": "dcc9de6134c4e125c4f4d86d359b12ec0086eda6f05fa2fbb521f94f561608e8",
  "daily_forecasts_sha256": "c0f520ca9e4e979dd095b38d8b0f388bcc5fc71730e4db619cb54a05af5ed64c",
  "daily_records": 120,
  "files": {
-  "index.html": "c5c32987e66029bb44697480e5dc1f91b55b00ec7772b5cb04375d51aa65cd1c",
-  "predictions.json": "773808ce763c4bb5ae26b73ba7e577de2411a110cbbf18d9bd6fb3be37f10868"
+  "index.html": "1acb7d53738c0a4fd15e3ec09317550b0fb5619983a6e46b8a9808450de53f22",
+  "predictions.json": "80f4c840347b2c9c0f9e7a1be80e1e15bb32024111682cc1739fb918786a07b3"
  },
- "generated_utc": "2026-11-10T18:48:30Z",
+ "generated_utc": "2026-11-11T13:21:19Z",
  "generator_sha256": "abc505039b022064c5bce33ad59d55723f9bf691a5f3a5fb48ec813335248165",
  "institution_ledger_sha256": "5bff7e200249370d9b0e06bf5c59954daa39eb8dc23d1eace5fdf8d4849280d2",
  "latest_base_session": "2026-11-09",
@@ -17,8 +17,8 @@
  "missed_sessions_sha256": "1a07e580b618956144ecfdee93227e8551104f6d3cd529ffaeaca05bedc0b0cd",
  "most_pick_contract_sha256": "6f352a86a608ebe3a8c68e1eae412eba48627954dc2552673c4cb57fc1b96305",
  "most_pick_contract_version": "most-1.0",
- "outcomes_file_sha256": "f747752b457ca100952ebda34b8c52fcbaf18f823ca4134349feeaa4e96de57c",
- "outcomes_lines": 39,
+ "outcomes_file_sha256": "b949c701f3c08b4cbcef9c20ffa2db7e7cdecd0d52a673683679308da795ce54",
+ "outcomes_lines": 45,
  "receipts_file_sha256": "e9923457e8f6b8146257f7fe4c4a1675cd50510df2e58a1233d5123ae18caf99",
  "site_version": "it-site-2.2",
  "warnings": []

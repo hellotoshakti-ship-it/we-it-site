@@ -1664,6 +1664,96 @@
     "symbol": "LTM"
    },
    {
+    "base_session": "2026-10-30",
+    "cio": "A",
+    "name": "MphasiS",
+    "outcome": "DOWN_FIRST",
+    "p_down_first": 0.48,
+    "p_down_first_pct": 48,
+    "p_up_first": 0.42,
+    "p_up_first_pct": 42,
+    "passage_session": "2026-11-11",
+    "seq": 58,
+    "sha256": "1275f19acbfbc2c6d37cbf3b8d6172658a786bcbbe313d3301139fd70b7c42ee",
+    "stock": "MPHASIS",
+    "symbol": "MPHASIS"
+   },
+   {
+    "base_session": "2026-10-30",
+    "cio": "B",
+    "name": "MphasiS",
+    "outcome": "DOWN_FIRST",
+    "p_down_first": 0.405894,
+    "p_down_first_pct": 41,
+    "p_up_first": 0.348594,
+    "p_up_first_pct": 35,
+    "passage_session": "2026-11-11",
+    "seq": 27,
+    "sha256": "aec3611f0d266bbb4ef4cb995b1e61be508992dbb37ee6b2772eb18d20522d95",
+    "stock": "MPHASIS",
+    "symbol": "MPHASIS"
+   },
+   {
+    "base_session": "2026-10-30",
+    "cio": "C",
+    "name": "MphasiS",
+    "outcome": "DOWN_FIRST",
+    "p_down_first": 0.44,
+    "p_down_first_pct": 44,
+    "p_up_first": 0.38,
+    "p_up_first_pct": 38,
+    "passage_session": "2026-11-11",
+    "seq": 89,
+    "sha256": "6f50eff071d99be83f7bac6a994814c7dd5fd3ee57b482ba5c17eb2f833df26e",
+    "stock": "MPHASIS",
+    "symbol": "MPHASIS"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "A",
+    "name": "LTM",
+    "outcome": "DOWN_FIRST",
+    "p_down_first": 0.43,
+    "p_down_first_pct": 43,
+    "p_up_first": 0.4,
+    "p_up_first_pct": 40,
+    "passage_session": "2026-11-11",
+    "seq": 157,
+    "sha256": "9ac1292a3f013d91a59fa2a78770ac9fd873f31fb775761b4954cf0f129116aa",
+    "stock": "LTM",
+    "symbol": "LTM"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "B",
+    "name": "LTM",
+    "outcome": "DOWN_FIRST",
+    "p_down_first": 0.266828,
+    "p_down_first_pct": 27,
+    "p_up_first": 0.428661,
+    "p_up_first_pct": 43,
+    "passage_session": "2026-11-11",
+    "seq": 117,
+    "sha256": "53dd3a982aa45907383afa19d359aa031a3ee8e2cff76aac8a1deb9ece07cf93",
+    "stock": "LTM",
+    "symbol": "LTM"
+   },
+   {
+    "base_session": "2026-11-06",
+    "cio": "C",
+    "name": "LTM",
+    "outcome": "DOWN_FIRST",
+    "p_down_first": 0.42,
+    "p_down_first_pct": 42,
+    "p_up_first": 0.42,
+    "p_up_first_pct": 42,
+    "passage_session": "2026-11-11",
+    "seq": 197,
+    "sha256": "00c9759cbb9fdb2e2678fff91b7daadf67e0e96038f7c047be50d1327e5d8525",
+    "stock": "LTM",
+    "symbol": "LTM"
+   },
+   {
     "base_session": "2026-11-06",
     "cio": "A",
     "name": "MphasiS",
@@ -1709,41 +1799,41 @@
     "symbol": "MPHASIS"
    }
   ],
-  "matured_total": 9,
-  "pending_total": 90,
+  "matured_total": 15,
+  "pending_total": 84,
   "per_cio": {
    "A": {
-    "avg_p_down_first_pct": "45.0",
-    "avg_p_up_first_pct": "41.7",
-    "down_first": 1,
-    "down_first_rate_pct": "33.3",
-    "matured": 3,
+    "avg_p_down_first_pct": "45.2",
+    "avg_p_up_first_pct": "41.4",
+    "down_first": 3,
+    "down_first_rate_pct": "60.0",
+    "matured": 5,
     "none": 0,
-    "pending": 30,
+    "pending": 28,
     "up_first": 2,
-    "up_first_rate_pct": "66.7"
+    "up_first_rate_pct": "40.0"
    },
    "B": {
-    "avg_p_down_first_pct": "39.0",
-    "avg_p_up_first_pct": "30.9",
-    "down_first": 1,
-    "down_first_rate_pct": "33.3",
-    "matured": 3,
+    "avg_p_down_first_pct": "36.9",
+    "avg_p_up_first_pct": "34.1",
+    "down_first": 3,
+    "down_first_rate_pct": "60.0",
+    "matured": 5,
     "none": 0,
-    "pending": 30,
+    "pending": 28,
     "up_first": 2,
-    "up_first_rate_pct": "66.7"
+    "up_first_rate_pct": "40.0"
    },
    "C": {
-    "avg_p_down_first_pct": "44.0",
-    "avg_p_up_first_pct": "37.3",
-    "down_first": 1,
-    "down_first_rate_pct": "33.3",
-    "matured": 3,
+    "avg_p_down_first_pct": "43.6",
+    "avg_p_up_first_pct": "38.4",
+    "down_first": 3,
+    "down_first_rate_pct": "60.0",
+    "matured": 5,
     "none": 0,
-    "pending": 30,
+    "pending": 28,
     "up_first": 2,
-    "up_first_rate_pct": "66.7"
+    "up_first_rate_pct": "40.0"
    }
   },
   "target": "BIG5"
@@ -18258,14 +18348,14 @@
    "sessions_checked": true
   },
   "latest_base_session": "2026-11-11",
-  "participation": null,
+  "participation": "COMPLETE",
   "records": 120,
   "stale_label": null,
   "state": "current",
   "status_text": "Daily cohort (fwd-daily-1.0): latest daily base Wednesday 11 Nov 2026."
  },
  "forward_only_note": "Forward results only. Historical School replay results are kept separately and are not shown here.",
- "generated_utc": "2026-11-10T18:48:30Z",
+ "generated_utc": "2026-11-11T13:21:19Z",
  "institutional_pick_summary": {
   "eligible": 5,
   "highest": {
