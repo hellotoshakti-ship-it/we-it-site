@@ -18341,11 +18341,11 @@
   "participation": null,
   "records": 240,
   "stale_label": null,
-  "state": "upcoming",
+  "state": "current",
   "status_text": "Daily cohort (fwd-daily-1.0): latest daily base Thursday 12 Nov 2026."
  },
  "forward_only_note": "Forward results only. Historical School replay results are kept separately and are not shown here.",
- "generated_utc": "2026-11-11T14:53:53Z",
+ "generated_utc": "2026-11-12T02:25:49Z",
  "institutional_pick_summary": {
   "eligible": 5,
   "highest": {
