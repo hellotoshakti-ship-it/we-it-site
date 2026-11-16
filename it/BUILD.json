@@ -1,12 +1,12 @@
 {
- "content_key": "14545d2380503c679525c1201e776bc9a0291f7939b3c27571d334ce0c2f1df0",
- "daily_forecasts_sha256": "dfb1d5788c1e4e324ea0b457f776e80782350b057b1917ed4f449f495f36e04a",
- "daily_records": 477,
+ "content_key": "a6ed27c98c16e3f5ab0a59f7fbda3f8e2b9cdaece6815c6dfbcdab58c37099ae",
+ "daily_forecasts_sha256": "d245aae21f87ec5922f0f22fb00fd5e0f522a389e53d61d7bcc323e133f1d2b1",
+ "daily_records": 594,
  "files": {
-  "index.html": "8e13c9c00dad16b8324d06f12d89528241b2b7e9936663b7378065905e6dd525",
-  "predictions.json": "4f1161a95ec8d42a2b41419372aa17d0e8cb6b2a446b30d23f329cec99483d01"
+  "index.html": "069793c8a71c33cdd72a9e129fdc53a88c6d61525db3d87503e9d012a58666bd",
+  "predictions.json": "35531b78be3e389d97d3bae5a339593a8f44c88104f4af6cdd5d0c0724255a01"
  },
- "generated_utc": "2026-11-16T13:20:53Z",
+ "generated_utc": "2026-11-16T14:54:37Z",
  "generator_sha256": "abc505039b022064c5bce33ad59d55723f9bf691a5f3a5fb48ec813335248165",
  "institution_ledger_sha256": "8ba45b4ecdfe56c94fe4c553626a887cf02485243b6c5a5752591aa06ffcf13f",
  "latest_base_session": "2026-11-16",
